@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello from EC2 🚀",
+    "section": "",
+    "text": "This site is built on an AWS EC2 instance and deployed using GitHub Pages."
+  },
+  {
+    "objectID": "index.html#system-information-python",
+    "href": "index.html#system-information-python",
+    "title": "Hello from EC2 🚀",
+    "section": "System Information (Python)",
+    "text": "System Information (Python)\nimport platform import psutil\nprint(“Operating System:”, platform.system(), platform.release()) print(“Python Version:”, platform.python_version()) print(“Machine:”, platform.machine()) print(“Processor:”, platform.processor())\nmem = psutil.virtual_memory() print(“Total Memory (MB):”, round(mem.total / (10242), 2)) print(“Available Memory (MB):”, round(mem.available / (10242), 2)) — title: “DehonghaoLiu0109.github.io” —\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nSave and exit nano:\n\nPress CTRL + O, then Enter\nPress CTRL + X\n\n✅ This satisfies the “embedded Python code + output” requirement."
+  },
+  {
+    "objectID": "index.html#step-7.2-optional-edit-about.qmd",
+    "href": "index.html#step-7.2-optional-edit-about.qmd",
+    "title": "Hello from EC2 🚀",
+    "section": "🔹 Step 7.2 — (Optional) Edit about.qmd",
+    "text": "🔹 Step 7.2 — (Optional) Edit about.qmd\n```bash nano about.qmd —- title: “About” format: html —\nThis website is part of Assignment 01.\n\nBuilt on AWS EC2\nUses Python 3.12\nUses Quarto\nDeployed with GitHub Pages"
+  }
+]

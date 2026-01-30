@@ -1,0 +1,54 @@
+---
+title: "Hello from EC2 🚀"
+subtitle: "Quarto + GitHub Pages"
+format: html
+---
+
+This site is built **on an AWS EC2 instance** and deployed using **GitHub Pages**.
+
+## System Information (Python)
+
+```{python}
+import platform
+import psutil
+
+print("Operating System:", platform.system(), platform.release())
+print("Python Version:", platform.python_version())
+print("Machine:", platform.machine())
+print("Processor:", platform.processor())
+
+mem = psutil.virtual_memory()
+print("Total Memory (MB):", round(mem.total / (1024**2), 2))
+print("Available Memory (MB):", round(mem.available / (1024**2), 2))
+---
+title: "DehonghaoLiu0109.github.io"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+### Save and exit nano:
+- Press **CTRL + O**, then **Enter**
+- Press **CTRL + X**
+
+✅ This satisfies the “embedded Python code + output” requirement.
+
+---
+
+## 🔹 Step 7.2 — (Optional) Edit `about.qmd`
+
+```bash
+nano about.qmd
+----
+title: "About"
+format: html
+---
+
+This website is part of **Assignment 01**.
+
+- Built on AWS EC2
+- Uses Python 3.12
+- Uses Quarto
+- Deployed with GitHub Pages
+
